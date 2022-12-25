@@ -1,8 +1,8 @@
-= X-DAY (a.k.a. musicboxmod)
+# X-DAY (a.k.a. musicboxmod)
 
 X-DAY (development name: musicboxmod) is a music box synthesizer module using HK326 IC. Based on the reference circuit, but modified to allow playback speed (and pitch) control. In addition, this module can output a gate signal linked to the melody.
 
-== Controls, inputs and outputs
+## Controls, inputs and outputs
 
  - `START` button: Playback ON/OFF control. The behavior depoends on jumper pin settings
  - `SPEED` knob: Control playback speed. Also pitch changes with playback speed
@@ -14,7 +14,7 @@ X-DAY (development name: musicboxmod) is a music box synthesizer module using HK
  - `MODE` (jumper pin on PCB): You can change the  behavior of the `START` button and the `TRIG IN` input. See table 1.
  - `SL` (jumper pin on PCB): You can change the  behavior of the `START` button and the `TRIG IN` input. See table 1.
 
-=== Table 1: `MODE` and `SL` jumper pin settings
+### Table 1: `MODE` and `SL` jumper pin settings
 
 | MODE pin setting | SL pin setting | Behavior |
 | ---------------- | -------------- | -------- |
@@ -27,19 +27,26 @@ X-DAY (development name: musicboxmod) is a music box synthesizer module using HK
  - note 2: `ONE SHOT` means "play one song and then stop".
  - note 3: `RE-TRIGGER` means "stop current song and play next song when the button is pushed".
 
-== Schematic
+## Schematic
+
+![Schematic](doc/schematic.png)
 
 
+## PCB image
 
+![Schematic](doc/pcb.png)
 
-== PCB image
+## KiCAD files
 
+This KiCAD project uses my KiCAD footprint and symbol library (https://github.com/mesotokyo/mst-kicad-lib). If you want to modify the schematic and PCB, please import this library.
 
-=== KiCAD files
+## gerber
 
+Please check [gerber](gerber) directory.
 
-=== gerber
+# Licenses
 
+Creative Commons CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 
 
