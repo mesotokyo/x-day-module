@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "musicboxmod-rescue")(type "Legacy")(uri "${KIPRJMOD}/musicboxmod-rescue.lib")(options "")(descr ""))
+)

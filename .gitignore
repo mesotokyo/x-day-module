@@ -1,0 +1,12 @@
+.*
+*~
+*-backups
+*.swp
+*.bak
+*-backups
+*.swp
+*.bak
+.pro
+*.pcb
+*.sch
+backup
